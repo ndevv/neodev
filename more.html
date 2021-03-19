@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/full-stack-developer-icon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-image: url("img/pattern2.png");
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <a class="navbar-brand" href="index.html"> <img src="img/logo.png" class="img-fluid" width="50px" height="50px"
+                alt="logo" title="Pantalla de bienvenida"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="more.html" title="Estás en la página de más información">Más<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LinkedIn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Github</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="1000"
+        style="margin-top:50px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/html5.png" class="d-block carousel-img" alt="html5">
+            </div>
+            <div class="carousel-item">
+                <img src="img/css3.png" class="d-block carousel-img" alt="css3">
+            </div>
+            <div class="carousel-item">
+                <img src="img/javascript.png" class="d-block carousel-img" alt="JavaScript">
+            </div>
+            <div class="carousel-item">
+                <img src="img/bootstrap2.png" class="d-block carousel-img" alt="bootstrap">
+            </div>
+            <div class="carousel-item">
+                <img src="img/git.png" class="d-block carousel-img" alt="git">
+            </div>
+            <div class="carousel-item">
+                <img src="img/github.png" class="d-block carousel-img" alt="github">
+            </div>
+            <div class="carousel-item">
+                <img src="img/nodejs.png" class="d-block carousel-img" alt="nodejs">
+            </div>
+            <div class="carousel-item">
+                <img src="img/express.png" class="d-block carousel-img" alt="js Express">
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="center alert alert-secondary col-lg-12" role="alert">
+                <h5>En la Fase 2 del curso de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jóvenes a
+                        Programar</a> elegí el Desarrollo Web,</h5>
+                <h5>aprendiendo a hacer páginas web del lado del Frontend y una introducción al Backend.</h5>
+                <br>
+                <p>Utilizando HTML5, CSS3, JavaScript, Bootstrap, Node JS, Express, Git y GitHub.</p>
+                <p>A lo largo del curso fuí construyendo un proyecto de e-commerce que puedes visitar en este <a
+                        href="https://diegog77.github.io/repo_proyecto-jap/index.html" target="_blank">link</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <table style="margin:auto;">
+        <tr>
+            <th><img src="img/javascript2.png" class="carousel-img" alt="JavaScript" style="margin-right: 1rem;"></th>
+            <th><img src="img/ruby.png" class="carousel-img" alt="Ruby" style="padding-left: 1rem;"></th>
+        </tr>
+    </table>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="center alert alert-secondary col-lg-12" role="alert">
+                <h5>En la Fase 1 tuve la introducción a la programación,</h5>
+                <h5>comenzando a estudiar el lenguaje JavaScript y Programación Orientada a Objetos con Ruby.</h5>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <footer class="text-muted">
+
+        <div class="container index-text">
+            <p>Uruguay 2021</p>
+            <p class="text-info">Gracias por visitar mi web <span id="name"></span> <button id="close" type="button"
+                    class="btn btn-outline-info btn-sm">Salir</button> </p>
+        </div>
+
+    </footer>
+
+    <script src="js/init.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
