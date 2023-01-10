@@ -16,12 +16,20 @@ document.addEventListener("DOMContentLoaded", function (e) {
             welcomeBack.style = "display: none;";
             welcome.style = "display: none;";
             formLogin.style = "display: block;";
+            or.style = "display: none;";
+            guest.style = "display: none;";
         });
 
     } else {
         document.getElementById('submitBtn').addEventListener("click", function (e) {
 
             localStorage.setItem('User', JSON.stringify({ name: inputName.value }));
+        });
+
+        document.getElementById('guest').addEventListener("click", function (e) {
+
+            localStorage.setItem('User', JSON.stringify({ name: inputName.value="Invitado" }));
+            window.location = 'home.html';
         });
     }
 
